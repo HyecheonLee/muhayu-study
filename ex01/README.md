@@ -20,6 +20,12 @@
 - %
 - 크기 조심
 
+#block,inline
+- div
+- span, img
+- inline-block
+
+
 #box-sizing
 - content-box 
 - border-box
