@@ -7,3 +7,23 @@
 - vmin,vmax : 
 # background
 - linear-gradient <https://www.w3.org/TR/css-images-3/#linear-gradients> 
+
+# margin
+- 여백
+- auto  
+- %  부모 요소 가로 너비
+- 형제요소 가로 세로 마진값
+- 부모요서 마진값
+
+# padding
+- 안쪽 여백
+- %
+- 크기 조심
+
+#box-sizing
+- content-box 
+- border-box
+
+#position
+- relative 
+- absolute
