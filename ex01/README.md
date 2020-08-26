@@ -40,3 +40,11 @@
 - relative 
 - absolute
 
+#selector
+- *
+- element
+- class
+- id
+- :hover  
+- :active (click)
+- :focus  (input) 
