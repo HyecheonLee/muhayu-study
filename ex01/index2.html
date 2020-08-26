@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+        crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <title>Title</title>
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("images/bg.jpg") center;
+    background-size: 100vw 100vh;
+  }
+
+  .card-wrapper {
+    height: 600px;
+    width: 450px;
+    padding-top: calc(50vh - 300px);
+    padding-bottom: calc(50vh - 300px);
+    margin: 0 auto;
+  }
+
+  .card {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(190deg, rgba(21, 199, 30, .8) 50%, rgba(233, 67, 67, .8) 0);
+    border-radius: 5px;
+  }
+
+  .card-head {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 2px solid #fff;
+    padding: 10px;
+    /*text-align: center;*/
+  }
+
+  .card-title {
+    width: 70%;
+    text-align: center;
+    margin: 35px auto;
+  }
+
+  .card-title h1 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 3px;
+    background: linear-gradient(#0a9751, #06831b);
+    padding: 5px 0;
+  }
+
+  .card-paragraph {
+    color: #fff;
+    font-size: 18px;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .card-icon-wrapper {
+    width: 50%;
+    margin: 50px auto;
+  }
+
+  .card-icon-wrapper ul {
+    display: inline-block;
+  }
+
+  .card-icon {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .card-icon-wrapper ul li {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    color: white;
+    text-align: center;
+    margin: 0 8px;
+  }
+
+  .card-icon i {
+    color: white;
+    text-align: center;
+  }
+
+  .card-btn {
+    text-align: center;
+  }
+
+  .card-btn button {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background: linear-gradient(#6837ee, #0d2b7e);
+    color: #ddd;
+    font-size: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5), 0 10px 20px rgba(0, 0, 0, .5), 0 10px 20px rgba(0, 0, 0, .5);
+    cursor: pointer;
+  }
+</style>
+<body>
+<div class="container">
+  <div class="card-wrapper">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img" src="images/antte.jpg" alt="antte">
+      </div>
+      <div class="card-title">
+        <h1>앙뜨</h1>
+      </div>
+      <div class="card-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, fuga.</div>
+      <div class="card-icon-wrapper">
+        <ul>
+          <li>
+            <a href="#" class="card-icon-link">
+              <i class="card-icon fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="card-icon-link">
+              <i class="card-icon fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="card-icon-link">
+              <i class="card-icon fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="card-icon-link">
+              <i class="card-icon fab fa-facebook-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-btn">
+        <button>View Profile</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -5,8 +5,15 @@
 - rem  : 폰트사이즈 html 
 - **vw,vh** : 화면에 보이는 영역
 - vmin,vmax : 
+
 # background
 - linear-gradient <https://www.w3.org/TR/css-images-3/#linear-gradients> 
+- color
+- image
+- repeat
+- position
+- scroll
+- size
 
 # margin
 - 여백
@@ -25,7 +32,6 @@
 - span, img
 - inline-block
 
-
 #box-sizing
 - content-box 
 - border-box
@@ -33,3 +39,4 @@
 #position
 - relative 
 - absolute
+
