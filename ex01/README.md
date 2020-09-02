@@ -48,3 +48,17 @@
 - :hover  
 - :active (click)
 - :focus  (input) 
+
+#flex
+- container
+-- display  
+-- flex-direction  
+-- flex-wrap  
+-- justify-content  
+-- align-content    
+-- align-items
+- items    
+-- flex-grow  
+-- flex-shrink -> 안씀 나도 잘 몰라  
+-- flex-basis  
+-- align-self
