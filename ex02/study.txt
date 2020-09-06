@@ -1,0 +1,14 @@
+animation
+@keyframes
+animation-name
+animation-duration
+animation-timing-function
+animation-iteration-count
+animation-direction
+animation-fill-mode
+animation-play-state
+
+
+transition
+transition-property
+transition-duration

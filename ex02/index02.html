@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
 </head>
-<style>
-  /** {
+<!--<style>
+  * {
     margin: 0;
     padding: 0;
   }
@@ -63,8 +63,8 @@
   }
 
   .banner-btn:hover {
-    !*transform: scale(1.3);
-    background: #1b5cf5;*!
+    /*transform: scale(1.3);
+    background: #1b5cf5;*/
     animation: btn 1s infinite;
     background: rgba(27, 92, 245, .5);
 
@@ -98,8 +98,8 @@
     100% {
       transform: translateY(0);
     }
-  }*/
-</style>
+  }
+</style>-->
 <body>
 <div class="container">
   <div class="banner">
@@ -108,5 +108,14 @@
     <button class="banner-btn">여기를 누르세요</button>
   </div>
 </div>
+
+<!--<script>
+  document.querySelector(".banner-btn").addEventListener("mouseenter", evt => {
+    document.querySelector(".arrow").style.cssText = "animation-play-state: paused"
+  });
+  document.querySelector(".banner-btn").addEventListener("mouseleave", evt => {
+    document.querySelector(".arrow").style.cssText = "animation-play-state: running"
+  });
+</script>-->
 </body>
 </html>
