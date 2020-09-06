@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: none;
+  /*display: none;*/
 }
 
 .banner-heading {
@@ -91,8 +91,8 @@
   transform: translate(-50%, -50%);
   box-shadow: 0 20px 50px rgba(0, 0, 0, .4);
   opacity: 0;
-  /*visibility: hidden;
-  transition: opacity 2s;*/
+  visibility: hidden;
+  transition: opacity 2s;
   border-radius: 50px;
 }
 
@@ -266,6 +266,7 @@
   }
 }
 
+/*
 @media (max-width: 850px) {
   .form-container {
     width: 600px;
@@ -312,4 +313,4 @@
   .header h1 {
     font-size: 30px;
   }
-}
+}*/
